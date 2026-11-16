@@ -130,7 +130,7 @@ public class ConexionTester extends JFrame {
         } catch (SQLException ex) {
             txtResultado.setForeground(Color.RED);
             txtResultado.setText("Fallo de conexión (SQLException):\n"
-                    + "No fue posible conectar con MySQL.\n"
+                    + "No fue posible conectar con la base de datos.\n"
                     + "Detalle técnico: " + ex.getMessage());
         }
     }
